@@ -1,0 +1,8 @@
+c:\users\ecofr\documents\visual studio 2015\Projects\MITA.HomeWork3\Debaters\bin\Debug\Debaters.exe.config
+c:\users\ecofr\documents\visual studio 2015\Projects\MITA.HomeWork3\Debaters\bin\Debug\Debaters.exe
+c:\users\ecofr\documents\visual studio 2015\Projects\MITA.HomeWork3\Debaters\bin\Debug\Debaters.pdb
+c:\users\ecofr\documents\visual studio 2015\Projects\MITA.HomeWork3\Debaters\bin\Debug\Model.dll
+c:\users\ecofr\documents\visual studio 2015\Projects\MITA.HomeWork3\Debaters\bin\Debug\Model.pdb
+c:\users\ecofr\documents\visual studio 2015\Projects\MITA.HomeWork3\Debaters\obj\Debug\Debaters.csprojResolveAssemblyReference.cache
+c:\users\ecofr\documents\visual studio 2015\Projects\MITA.HomeWork3\Debaters\obj\Debug\Debaters.exe
+c:\users\ecofr\documents\visual studio 2015\Projects\MITA.HomeWork3\Debaters\obj\Debug\Debaters.pdb
