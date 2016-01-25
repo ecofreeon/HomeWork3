@@ -38,11 +38,10 @@ namespace Debaters
             Numbertone.NewNumber += Jay.FetchNewNumber;
             Numbertone.NewNumber += SilentBob.FetchNewNumber;
 
-            Random random = new Random();
+            
             for (int i = 0; i < userNumber; i++)
             {
                 Numbertone.Generate(random);
-                int a = random.Next(0,100);
             }
 
             if (Jay.Score > SilentBob.Score)
