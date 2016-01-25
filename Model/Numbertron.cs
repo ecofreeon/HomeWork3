@@ -8,7 +8,7 @@ namespace Model
 {
     public class Numbertron
     {
-        
+        private readonly Random _random = new Random();
         public event EventHandler<NumbertoneEventArgs> NewNumber;
 
         protected virtual void OnNewNumber(int newNumber)
@@ -18,7 +18,7 @@ namespace Model
 
         public void Generate(Random random)
         {
-            var RandomNumber = random.Next(0, 100);
+            var randomNumber = _random.Next(0, 1000);
             OnNewNumber(RandomNumber);
         }
     }
