@@ -19,10 +19,10 @@ namespace Debaters
             {
                 Console.Write("Ваше число - ");
                 var currentnumber = Console.ReadLine();
-                acces = int.TryParse(currentnumber, out userNumber);
+                Acces = int.TryParse(currentnumber, out userNumber);
                 if (userNumber <= 0)
                 {
-                    acces = false;
+                    Acces = false;
                 }
                 if (!acces)
                 {
@@ -31,31 +31,31 @@ namespace Debaters
                 Console.Clear();
             } while (!acces);
 
-            var jay = new Jay();
-            var silentBob = new SilentBob();
-            var numbertone = new Numbertron();
+            var Jay = new Jay();
+            var SilentBob = new SilentBob();
+            var Numbertone = new Numbertron();
 
-            numbertone.NewNumber += jay.FetchNewNumber;
-            numbertone.NewNumber += silentBob.FetchNewNumber;
+            Numbertone.NewNumber += Jay.FetchNewNumber;
+            Numbertone.NewNumber += SilentBob.FetchNewNumber;
 
             Random random = new Random();
             for (int i = 0; i < userNumber; i++)
             {
-                numbertone.Generate(random);
+                Numbertone.Generate(random);
                 int a = random.Next(0,100);
             }
 
-            if (jay.Score > silentBob.Score)
+            if (Jay.Score > SilentBob.Score)
             {
                 Console.WriteLine("Джэй одерживает победу");
             }
 
-            if (jay.Score < silentBob.Score)
+            if (Jay.Score < SilentBob.Score)
             {
                 Console.WriteLine("Боб одерживает победу");
             }
 
-            if (jay.Score == silentBob.Score)
+            if (Jay.Score == SilentBob.Score)
             {
                 Console.WriteLine("DRAW");
             }
