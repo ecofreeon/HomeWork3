@@ -16,7 +16,7 @@ namespace Model
             NewNumber?.Invoke(this, new NumbertoneEventArgs(newNumber));
         }
 
-        public void Generate(Random random)
+        public void Generate()
         {
             var randomNumber = _random.Next(0, 1000);
             OnNewNumber(RandomNumber);
